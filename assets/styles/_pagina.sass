@@ -1,0 +1,76 @@
+@import "./_variables"
+.Contador
+    color: black
+    position: absolute
+    margin-left: 7px
+    margin-top: 7px
+    font-size: 18px
+    border-radius: 100%
+
+.preciototal
+    color: white
+    text-decoration: none
+    display: flex
+
+.preciototal:hover
+    cursor: pointer
+
+.container
+    padding: 0px 20px
+    max-width: 100px
+    display: grid
+    text-align: center
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr))
+    gap: 20px
+    margin: auto
+
+.producto
+    height: 400px
+    background-color: $fisrt-color
+    border: 2px solid $second-color
+    border-radius: 5px
+    position: relative
+    font-size: $font-size
+
+.producto:hover
+
+    transition-duration: 0.1s
+    transition-delay: 0.1s
+    font-size: $font-size-hover
+    transform: scale(1.05)
+
+.producto>img
+    margin-top: 50px
+    max-height: 200px
+    max-width: 200px
+
+button
+    background-color: darkgray
+    width: 80px
+    border-radius: 13px
+    background-color:$second-color
+    cursor: pointer
+
+button:hover
+    transition: 0.2s
+    background-color: $shadow
+
+.btns
+    display: flex
+    justify-content: center
+    gap: 20px
+
+.btnMin
+    border-radius: 100%
+    width: 25px
+    height: 25px
+
+.btnMas
+    border-radius: 100%
+    width: 25px
+    height: 25px
+
+.hide
+    display: none
+
+
